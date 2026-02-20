@@ -101,7 +101,7 @@ https://github.com/Chethani/wildrydes-site/edit/main/js/cognito-auth.js
     }
 
     function toUsername(email) {
-        return email.replace('@', '-at-');
+        return email;
     }
 
     /*
@@ -171,4 +171,5 @@ https://github.com/Chethani/wildrydes-site/edit/main/js/cognito-auth.js
         );
     }
 }(jQuery));
+
 
